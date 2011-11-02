@@ -1,0 +1,1 @@
+Setjið ;%WinDir%\Microsoft.NET\Framework\v4.0.30319 í classpath í Windows svo þið getið gert msbuild beint í command promt
