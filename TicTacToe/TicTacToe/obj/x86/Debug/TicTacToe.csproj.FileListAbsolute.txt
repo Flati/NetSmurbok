@@ -1,0 +1,9 @@
+C:\Verkefni\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Verkefni\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.Properties.Resources.resources
+C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.exe
+C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.pdb
+C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.TicTacToeApplicationWindow.resources
