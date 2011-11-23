@@ -1,0 +1,45 @@
+Build started 23.11.2011 13:17:37.
+__________________________________________________
+Project "C:\Users\Pandemic\verkefni\TicTacToe\TicTacToe\build.xml" (default targets):
+
+Target Run:
+    Target Clean:
+        Files to delete : 
+        Deleting file "Published\TicTacToe.exe".
+        Removing directory "bin\".
+        Removing directory "Published".
+    Target Compile:
+        __________________________________________________
+        Project "C:\Users\Pandemic\verkefni\TicTacToe\TicTacToe\build.xml" is building "C:\Users\Pandemic\verkefni\TicTacToe\TicTacToe\TicTacToe.csproj" (default targets):
+
+        Target PrepareForBuild:
+            Creating directory "bin\Release\".
+            Creating directory "obj\x86\Release\".
+        Target ResolveAssemblyReferences:
+            A TargetFramework profile exclusion list will be generated.
+        Target CoreResGen:
+            Processing resource file "Form1.resx" into "obj\x86\Release\TicTacToe.TicTacToeApplicationWindow.resources".
+            Processing resource file "Properties\Resources.resx" into "obj\x86\Release\TicTacToe.Properties.Resources.resources".
+        Target GenerateTargetFrameworkMonikerAttribute:
+          Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+        Target CoreCompile:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Deployment.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.Xml.Linq.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\TicTacToe.exe /resource:obj\x86\Release\TicTacToe.TicTacToeApplicationWindow.resources /resource:obj\x86\Release\TicTacToe.Properties.Resources.resources /target:winexe Form1.cs Form1.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs "C:\Users\Pandemic\AppData\Local\Temp\.NETFramework,Version=v4.0,Profile=Client.AssemblyAttributes.cs"
+        Target CopyFilesToOutputDirectory:
+            Copying file from "obj\x86\Release\TicTacToe.exe" to "bin\Release\TicTacToe.exe".
+            TicTacToe -> C:\Users\Pandemic\verkefni\TicTacToe\TicTacToe\bin\Release\TicTacToe.exe
+            Copying file from "obj\x86\Release\TicTacToe.pdb" to "bin\Release\TicTacToe.pdb".
+    Target Publish:
+        Creating directory "Published".
+        Copying file from "bin\Release\TicTacToe.exe" to "Published\TicTacToe.exe".
+    Target Message:
+        ================================
+        =
+        = ÞETTA TÓKST
+        =
+        =================================
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.26
