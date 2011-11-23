@@ -1,16 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Run">
-  
+<UsingTask TaskName="NUnit" AssemblyFile="$(teamcity_dotnet_nunitlauncher_msbuild_task)"/>
+
+
+
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <Optimize>false</Optimize>
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>.\bin\Debug</OutputPath>
   </PropertyGroup>
+  
+ 
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <Optimize>true</Optimize>
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release</OutputPath>
   </PropertyGroup>
+  
+
   
   <Target Name="Clean"> <!--Clean the build directory for future build-->
     <ItemGroup> <!--All files in bin directory-->
@@ -23,9 +30,15 @@
 	<RemoveDir Directories="bin\"/>
 	<RemoveDir Directories="Published"/>
   </Target>
+  
+  
 
   <Target Name="Compile" DependsOnTargets="Clean"><!--This will not run unless we have cleaned-->
     <MSBuild Projects="TicTacToe.csproj" />
+  </Target>
+  
+  <Target Name="Test">
+     <NUnit Assemblies="bin\Test.dll"/>
   </Target>
 
   <Target Name="Publish">
@@ -48,6 +61,7 @@
   <Target Name="Run">
     <CallTarget Targets="Clean"></CallTarget>
     <CallTarget Targets="Compile"></CallTarget>
+    <CallTarget Targets="Test"></CallTarget>
     <CallTarget Targets="Publish"></CallTarget>
 	<CallTarget Targets="Message"></CallTarget>
   </Target>
