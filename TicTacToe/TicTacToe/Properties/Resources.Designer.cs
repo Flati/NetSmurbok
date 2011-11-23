@@ -60,9 +60,37 @@ namespace TicTacToe.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap bord {
+            get {
+                object obj = ResourceManager.GetObject("bord", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap empty {
+            get {
+                object obj = ResourceManager.GetObject("empty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap horizontal {
             get {
                 object obj = ResourceManager.GetObject("horizontal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap hringur {
+            get {
+                object obj = ResourceManager.GetObject("hringur", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap kross {
+            get {
+                object obj = ResourceManager.GetObject("kross", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

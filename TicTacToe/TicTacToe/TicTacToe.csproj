@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="code\Logic.cs" />
+    <Compile Include="data\DataReader.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +102,10 @@
     <Content Include="build.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="etc\bord.png" />
+    <None Include="etc\empty.png" />
+    <Content Include="etc\hringur.png" />
+    <Content Include="etc\kross.png" />
     <None Include="etc\vertical.png" />
     <None Include="etc\horizontal.png" />
   </ItemGroup>
