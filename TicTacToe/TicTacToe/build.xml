@@ -3,7 +3,7 @@
 <UsingTask TaskName="NUnit" AssemblyFile="$(teamcity_dotnet_nunitlauncher_msbuild_task)"/>
 
 
-  <!--====================================================================-->  
+
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <Optimize>false</Optimize>
     <DebugSymbols>true</DebugSymbols>
@@ -17,9 +17,9 @@
     <OutputPath>.\bin\Release</OutputPath>
   </PropertyGroup>
   
-  <!--===================================================================->
+
   
-  <!-Target Name="Clean"> <!--Clean the build directory for future build-->
+  <Target Name="Clean"> <!--Clean the build directory for future build-->
     <ItemGroup> <!--All files in bin directory-->
       <BinFiles Include="bin\*.*" />
       <PublishFiles Include="Published\*.*"/>
