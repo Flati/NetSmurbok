@@ -16,3 +16,5 @@ C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.TicTacT
 C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.Properties.Resources.resources
 C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pandemic\verkefni\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.exe
+C:\Users\Pandemic\verkefni\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.pdb
