@@ -7,3 +7,12 @@ C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.exe
 C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.pdb
 C:\Verkefni\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.TicTacToeApplicationWindow.resources
+C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.exe
+C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.pdb
+C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.TicTacToeApplicationWindow.resources
+C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\TicTacToe.Properties.Resources.resources
+C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Flati\Desktop\trunk\TicTacToe\TicTacToe\obj\x86\Debug\GenerateResource.write.1.tlog
