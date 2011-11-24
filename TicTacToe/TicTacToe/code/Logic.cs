@@ -10,7 +10,7 @@ namespace TicTacToe.code
     class Logic
     {
         public string currentPlayer { get; set; }
-        private static List<List<string>> matrix;
+        private List<List<string>> matrix;
         private int moveCounter;
 
         DataReader dataReader;
@@ -19,7 +19,7 @@ namespace TicTacToe.code
         {
             dataReader = new DataReader();
             moveCounter = 0;
-            currentPlayer = Global.player1;
+            currentPlayer = Global.PLAYER1;
             matrix = new List<List<string>>();
             for (int i = 0; i < 3; i++)
             {
@@ -40,15 +40,15 @@ namespace TicTacToe.code
 
         public void ChangePlayers()
         {
-            if (currentPlayer == Global.player1)
-                currentPlayer = Global.player2;
+            if (currentPlayer == Global.PLAYER1)
+                currentPlayer = Global.PLAYER2;
             else
-                currentPlayer = Global.player1;
+                currentPlayer = Global.PLAYER1;
         }
 
         public void WinScreen(String winner)
         {
-            Global.winMessage = dataReader.Winning(winner);
+            Global.WIN_MESSAGE = dataReader.Winning(winner);
         }
 
         public bool Tie()

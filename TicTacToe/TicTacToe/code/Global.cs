@@ -7,9 +7,9 @@ namespace TicTacToe
 {
     public static class Global
     {
-        public static bool playAgain = true;
-        public static string winMessage = null;
-        public static String player1 = "X";
-        public static String player2 = "O";
+        public static bool PLAY_AGAIN = true;
+        public static string WIN_MESSAGE = null;
+        public static String PLAYER1 = "X";
+        public static String PLAYER2 = "O";
     }
 }

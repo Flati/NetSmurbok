@@ -14,7 +14,7 @@ namespace TicTacToe
         public StatisticsForm()
         {
             InitializeComponent();
-            StatisticsMessage.Text = Global.winMessage;
+            StatisticsMessage.Text = Global.WIN_MESSAGE;
         }
 
         private void returnButton_Click(object sender, EventArgs e)

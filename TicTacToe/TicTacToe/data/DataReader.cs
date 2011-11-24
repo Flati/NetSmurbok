@@ -33,12 +33,12 @@ namespace TicTacToe.data
             }
             using (StreamWriter sw = new StreamWriter(path))
             {
-                if (winner == Global.player1)
+                if (winner == Global.PLAYER1)
                 {
                     player1Win++;
                     result += "Player 1 won this game!";
                 }
-                else if (winner == Global.player2)
+                else if (winner == Global.PLAYER2)
                 {
                     player2Win++;
                     result += "Player 2 won this game!";

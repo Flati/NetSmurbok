@@ -18,13 +18,13 @@ namespace TicTacToe
 
         private void Yes_Click(object sender, EventArgs e)
         {
-            Global.playAgain = true;
+            Global.PLAY_AGAIN = true;
             Close();
         }
 
         private void No_Click(object sender, EventArgs e)
         {
-            Global.playAgain = false;
+            Global.PLAY_AGAIN = false;
             Close();
         }
     }

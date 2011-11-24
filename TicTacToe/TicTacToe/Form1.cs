@@ -22,7 +22,7 @@ namespace TicTacToe
 
         public void MarkField(Button field)
         {
-            if (logic.currentPlayer == Global.player1)
+            if (logic.currentPlayer == Global.PLAYER1)
                 field.Image = Image.FromFile("..\\..\\etc\\kross.png");
             else
                 field.Image = Image.FromFile("..\\..\\etc\\hringur.png");

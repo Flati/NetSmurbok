@@ -15,7 +15,7 @@ namespace TicTacToe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            while (Global.playAgain)
+            while (Global.PLAY_AGAIN)
             {
                 Application.Run(new TicTacToeApplicationWindow());
                 Application.Run(new StatisticsForm());
