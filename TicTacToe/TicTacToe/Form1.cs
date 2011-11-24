@@ -22,10 +22,10 @@ namespace TicTacToe
 
         public void MarkField(Button field)
         {
-            if (logic.currentPlayer == Logic.player1)
-                field.Image = Image.FromFile("C:\\Users\\Flati\\Desktop\\trunk\\TicTacToe\\TicTacToe\\etc\\kross.png");
+            if (logic.currentPlayer == Global.player1)
+                field.Image = Image.FromFile("..\\..\\etc\\kross.png");
             else
-                field.Image = Image.FromFile("C:\\Users\\Flati\\Desktop\\trunk\\TicTacToe\\TicTacToe\\etc\\hringur.png");
+                field.Image = Image.FromFile("..\\..\\etc\\hringur.png");
             field.Update();
         }
 
@@ -37,7 +37,7 @@ namespace TicTacToe
 
         private void TopLeft_Click(object sender, EventArgs e)
         {
-            if (logic.isAvailable(0,0))
+            if (logic.IsAvailable(0,0))
             {
                 MarkField(TopLeft);
                 MarkMatrix(0, 0);
@@ -46,7 +46,7 @@ namespace TicTacToe
 
         private void TopCenter_Click(object sender, EventArgs e)
         {
-            if (logic.isAvailable(0,1))
+            if (logic.IsAvailable(0,1))
             {
                 MarkField(TopCenter);
                 MarkMatrix(0, 1);
@@ -55,7 +55,7 @@ namespace TicTacToe
 
         private void TopRight_Click(object sender, EventArgs e)
         {
-            if (logic.isAvailable(0,2))
+            if (logic.IsAvailable(0,2))
             {
                 MarkField(TopRight);
                 MarkMatrix(0, 2);
@@ -64,7 +64,7 @@ namespace TicTacToe
 
         private void MiddleLeft_Click(object sender, EventArgs e)
         {
-            if (logic.isAvailable(1,0))
+            if (logic.IsAvailable(1,0))
             {
                 MarkField(MiddleLeft);
                 MarkMatrix(1, 0);
@@ -73,7 +73,7 @@ namespace TicTacToe
 
         private void MiddleCenter_Click(object sender, EventArgs e)
         {
-            if (logic.isAvailable(1,1))
+            if (logic.IsAvailable(1,1))
             {
                 MarkField(MiddleCenter);
                 MarkMatrix(1, 1);
@@ -82,7 +82,7 @@ namespace TicTacToe
 
         private void MiddleRight_Click(object sender, EventArgs e)
         {
-            if (logic.isAvailable(1,2))
+            if (logic.IsAvailable(1,2))
             {
                 MarkField(MiddleRight);
                 MarkMatrix(1, 2);
@@ -91,7 +91,7 @@ namespace TicTacToe
 
         private void BottomLeft_Click(object sender, EventArgs e)
         {
-            if (logic.isAvailable(2,0))
+            if (logic.IsAvailable(2,0))
             {
                 MarkField(BottomLeft);
                 MarkMatrix(2, 0);
@@ -100,7 +100,7 @@ namespace TicTacToe
 
         private void BottomCenter_Click(object sender, EventArgs e)
         {
-            if (logic.isAvailable(2,1))
+            if (logic.IsAvailable(2,1))
             {
                 MarkField(BottomCenter);
                 MarkMatrix(2, 1);
@@ -109,7 +109,7 @@ namespace TicTacToe
 
         private void BottomRight_Click(object sender, EventArgs e)
         {
-            if (logic.isAvailable(2,2))
+            if (logic.IsAvailable(2,2))
             {
                 MarkField(BottomRight);
                 MarkMatrix(2, 2);

@@ -9,5 +9,7 @@ namespace TicTacToe
     {
         public static bool playAgain = true;
         public static string winMessage = null;
+        public static String player1 = "X";
+        public static String player2 = "O";
     }
 }

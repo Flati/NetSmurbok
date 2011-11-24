@@ -9,11 +9,9 @@ namespace TicTacToe.code
 {
     class Logic
     {
-        public static String player1 = "X";
-        public static String player2 = "O";
-        public String currentPlayer;
-        public static List<List<string>> matrix;
-        int moveCounter;
+        public string currentPlayer { get; set; }
+        private static List<List<string>> matrix;
+        private int moveCounter;
 
         DataReader dataReader;
 
@@ -21,7 +19,7 @@ namespace TicTacToe.code
         {
             dataReader = new DataReader();
             moveCounter = 0;
-            currentPlayer = player1;
+            currentPlayer = Global.player1;
             matrix = new List<List<string>>();
             for (int i = 0; i < 3; i++)
             {
@@ -33,7 +31,7 @@ namespace TicTacToe.code
             }
         }
 
-        public bool isAvailable(int x, int y)
+        public bool IsAvailable(int x, int y)
         {
             if (matrix[x][y] == "E")
                 return true;
@@ -42,15 +40,15 @@ namespace TicTacToe.code
 
         public void ChangePlayers()
         {
-            if (currentPlayer == player1)
-                currentPlayer = player2;
+            if (currentPlayer == Global.player1)
+                currentPlayer = Global.player2;
             else
-                currentPlayer = player1;
+                currentPlayer = Global.player1;
         }
 
         public void WinScreen(String winner)
         {
-            Global.winMessage = dataReader.winning(winner);
+            Global.winMessage = dataReader.Winning(winner);
         }
 
         public bool Tie()
@@ -64,7 +62,7 @@ namespace TicTacToe.code
         {
             matrix[x][y] = currentPlayer;
             moveCounter++;
-            if (isWon())
+            if (IsWon())
             {
                 WinScreen(currentPlayer);
                 return true;
@@ -78,7 +76,7 @@ namespace TicTacToe.code
             return false;
         }
 
-        private bool isWon()
+        private bool IsWon()
         {
             for (int i = 0; i < 3; i++)
             {
